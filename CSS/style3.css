@@ -1,0 +1,92 @@
+table, tr, th, td 
+{
+	border: indianred 2px solid;
+	border-collapse: collapse;
+}
+
+th 
+{
+	color: beige;
+	font-family: tahoma;
+	font-size: 25px;
+}
+
+td 
+{
+	color: black;
+	font-family: arial;
+	font-size: 20px;
+	text-align: center;
+}
+
+tr:nth-child(odd)
+{
+	background-color: rosybrown;
+}
+
+tr:nth-child(even)
+{
+	background-color: lightpink;
+}
+
+tr:hover 
+{
+	background-color: brown;
+}
+h1
+{
+	color: maroon;
+	text-align: center;
+	font-size: 50px;
+	font-family: times new roman;
+	margin-top: 50px;
+}
+h3
+{
+	color: crimson;
+	text-align: center;
+	font-family: arial;
+	font-size: 20px;
+}
+nav ul 
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: beige;
+	display: flex;
+	justify-content: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	font-family: times new roman;
+	font-size: 16px;
+
+}
+nav ul li a 
+{
+	display: inline-block;
+	color: maroon;
+	padding: 14px 16px;
+	text-decoration: none;
+
+}
+nav ul li a:hover:not(.active) 
+{
+	background-color: lightpink;
+	color: white;
+	transform: scale(1.05);
+	padding: 14px 30px;
+	box-shadow: 0 4px 15px rgba(255, 182, 193, 0.3);
+	z-index: 10;
+	position: relative;
+}
+nav ul li a.active
+{
+	background-color: rosybrown;
+
+}
+
+
+	
