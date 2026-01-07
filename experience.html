@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Experience</title>
+
+	<link rel="stylesheet" type="text/css" href="CSS/style4.css">
+
+	<style>
+		.button-container a:link, a:visited
+		{
+			color: black;
+			background-color: lightgrey;
+			text-decoration: none;
+			text-align: center;
+			padding: 15px;
+			display: inline-block;
+			border-radius: 35px;
+		}
+
+		.button-container a:hover, a:active
+		{
+			color: cornsilk;
+			background-color: palevioletred;
+			border-radius: 15px;
+		} 
+		section li
+		{
+			margin: 10px;
+		}
+		footer
+		{
+			background-color: maroon;
+			color: ghostwhite;
+		}
+
+
+	</style>
+</head>
+<body>
+
+	<nav>
+	<ul>
+		<li><a href="index.html" target="_blank">Home Page</a></li>
+		<li><a href="about_me.html" target="_blank" >About Me</a></li>
+		<li><a href="education.html" target="_blank" >Education</a></li>
+		<li><a href="experience.html" target="_blank"class="active">Experience</a> 
+		</li>
+		<li><a href="gallery.html" target="_blank">Gallery</a></li>
+	</ul>
+	</nav>
+
+	<h1>MY EXPERIENCE</h1>
+
+<div class="button-container">
+	<a href="#highSchool">Go to High School</a>
+
+	<a href="#diploma">Go to Diploma</a>
+
+	<a href="#intern">Go to Internship</a>
+
+</div>
+	
+
+		
+	<section id="highSchool">
+		<h3>High School Experience</h3>
+
+		<script>
+			function myschool(a)
+			{
+				var pict;
+				if (a==1)
+				{
+					pict="image/orientasi.jpeg"
+				}
+				else if (a==2)
+				{
+					pict="image/farah.jpeg"
+				}
+				else
+				{
+					pict="image/rasy.jpeg"
+				}
+				document.getElementById('pic1').src=pict;
+			}
+		</script>
+
+		<div style="text-align: center; margin: 20px 0;">
+			<img src="image/orientasi.jpeg" width="300" height="200" id="pic1" style="display: margin: 0 auto;">
+		</div>
+		
+
+		<p style="text-align: center; margin: 15px 0;">
+			<button type="button" onclick="myschool(1)">Pitcure 1</button>
+			<button type="button" onclick="myschool(2)">Pitcure 2</button>
+			<button type="button" onclick="myschool(3)">Pitcure 3</button>
+		</p>
+
+		<ul style="list-style-type: '✓ '; ">
+			<li>President for <b><abbr title="Skim Pinjaman Buku Teks">SPBT</abbr></b> club for 1 year</li>
+			<li>A <b>committee in registration</b> for orientation day</li>
+			<li>A <b>comittee for games and activities</b> for teacher's day </li>
+			<li>Active player for <b>Ping Pong</b> sports</li>
+			
+		</ul>
+	</section>
+
+	<section id="diploma">
+		<h3>Diploma Experience</h3>
+		<script>
+			function mydiploma(a)
+			{
+				var pict;
+				if (a==1)
+				{
+					pict="image/pp.jpg"
+				}
+				else if (a==2)
+				{
+					pict="image/emcee.jpg"
+				}
+				else
+				{
+					pict="image/srm.jpg"
+				}
+				document.getElementById('pic2').src=pict;
+			}
+		</script>
+
+		<div style="text-align: center; margin: 20px 0;">
+			<img src="image/pp.jpg" width="250" height="300" id="pic2" style="display: margin: 0 auto;">
+		</div>
+		
+
+		<p style="text-align: center; margin: 15px 0;">
+			<button type="button" onclick="mydiploma(1)">Pitcure 1</button>
+			<button type="button" onclick="mydiploma(2)">Pitcure 2</button>
+			<button type="button" onclick="mydiploma(3)">Pitcure 3</button>
+		</p>
+
+		<ul style="list-style-type: '✓ '">
+			<li>Program director for <strong><i>Karnival Rakan Muda</i></strong> program held on 7 and 8 November 2025</li>
+			<li>Formal emcee for <strong>Seminar Brainwave Boost:Think faster, Learn Better</strong> on Karnival Infofest 2025</li>
+			<li>A comittee for games and activities for <strong>Karnival Infofest 2025</strong></li>
+			<li>Exco information and membership for <strong><abbr title="Sekretariat Rakan Muda">SRM</abbr></strong> club from semester 3 until semester 5</li>
+		</ul>
+	</section>
+
+	<section id="intern">
+		<h3>Internship Experience</h3>
+
+		<script>
+			function myintern(a)
+			{
+				var pict;
+				if (a==1)
+				{
+					pict="image/intern1.jpg"
+				}
+				else if (a==2)
+				{
+					pict="image/intern2.jpg"
+				}
+				else
+				{
+					pict="image/intern3.jpg"
+				}
+				document.getElementById('pic3').src=pict;
+			}
+		</script>
+
+		<div style="text-align: center; margin: 20px 0;">
+			<img src="image/intern1.jpg" width="300" height="250" id="pic3" style="display: margin: 0 auto;">
+		</div>
+		
+
+		<p style="text-align: center; margin: 15px 0;">
+			<button type="button" onclick="myintern(1)">Pitcure 1</button>
+			<button type="button" onclick="myintern(2)">Pitcure 2</button>
+			<button type="button" onclick="myintern(3)">Pitcure 3</button>
+		</p>
+
+		<ul style="list-style-type: '✓ '">
+		<li>Undertaken internship program at Perpustakaan Hamdan Tahir for 2 month</li>
+		<li>Practice practical skills such as :
+			<ol type="i">
+				<li>Cataloging skills</li>
+				<li>Interpersonal skills</li>
+				<li>Information technology skills</li>
+			</ol>
+		</li>
+	</ul>
+	</section>
+
+	<footer style="text-align:center;">
+		
+		<p>© 2026 by Ainun Sakinah. All Rights Reserved.</p>
+
+		<address>
+			Ainun Sakinah Abdul Malik <br>
+			Pengajian Sains Maklumat <br>
+			UiTM Cawangan Kelantan <br>
+			101ainun@gmail.com
+		</address>
+	</footer>
+</body>
+</html>
